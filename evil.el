@@ -138,9 +138,6 @@
 (require 'evil-jumps)
 (require 'evil-maps)
 
-(when evil-want-integration
-  (require 'evil-integration))
-
 (run-hooks 'evil-after-load-hook)
 
 (provide 'evil)
